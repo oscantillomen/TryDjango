@@ -15,6 +15,7 @@ def about_view(request, *args, **kwargs):
 		'my_text': 'This is about us',
 		'my_number': 123,
 		'my_list': [123, 4545, 45652],
+		'this_is_true': True,
 	}
 	return render(request, 'about.html', my_context)
 
